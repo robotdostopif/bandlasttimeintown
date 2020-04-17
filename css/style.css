@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-image: url("/img/pink-background.jpg");
+  background-repeat: no-repeat no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 1000px;
+  background-color: white;
+  margin: 10px 50px;
+  border: 3px black solid;
+  border-radius: 5px;
+  font-family: "Tomorrow", sans-serif;
+}
+
+footer {
+  background-color: black;
+  border-top: rosybrown 2px solid;
+}
+
+.copy {
+  text-align: center;
+  color: white;
+  font-family: "Tomorrow", sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.search-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  padding: 10px 10%;
+}
+
+.vertical-content {
+  display: flex;
+}
+
+@media screen and (max-width: 754px) {
+  .menu ul {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .container {
+    font-size: 80%;
+  }
+
+  .button-items {
+    font-size: 85%;
+  }
+
+  .event-item {
+    font-size: 90%;
+  }
+
+  .top-bar-items {
+    display: inline;
+    text-align: center;
+  }
+
+  .vertical-content {
+    display: block !important;
+  }
+
+  .logo {
+    flex: 0;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .menu ul {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .top-bar-items {
+    display: initial !important;
+  }
+}
+
+@media screen and (max-width:400px) {
+  
+  #bandtag {
+    font-size: 30px !important;
+  }
+  
+  .container {
+  margin: 10px 5px;
+}
+  .event-item a h1,
+  h3,
+  span,
+  p {
+    font-size: 60% !important;
+  }
+
+}

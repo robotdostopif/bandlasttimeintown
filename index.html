@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top-bar.css">
+    <link rel="stylesheet" href="css/bot-buttons.css">
+    <link rel="stylesheet" href="css/event.css">
+    <title>Band Last Time In Town</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-items">
+            <div class="logo">
+                <h1><a href="index.html">band last time in town</a></h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><input type="text" id="band" placeholder="Enter a band"/></li>
+                    <li><input type="text" id="city" placeholder="Enter a city"/></li>
+                    <li><input type="submit" value="Search" id="submit"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="banner"></div>
+    <div class="container">
+        <div class="search-content">
+            <div id="search"></div>
+            <div class="vertical-content">
+                <div class="photo">
+                    <img id="image" src="" alt="">
+                    <h3 id="bandtag"></h3>
+                    <h4 id="ontour"></h4>
+                </div>
+                <div id="up-event" class="up-event"></div>
+            </div>
+            <div class="event-container" id="event">
+            </div>
+        </div>
+        <script src="js/events.js"></script>
+        <script src="js/printpage.js"></script>
+        <script src="js/apiconsumer.js"></script>
+        <div class="buttons">
+            <ul id="btn"></ul>
+        </div>
+</div>    
+    </div>
+        
+        <footer>
+            <div class="copy">
+                <h1>No Copyright Intended</h1>
+            </div>  
+        </footer>
+</body>
+</html>

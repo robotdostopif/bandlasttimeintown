@@ -1,0 +1,78 @@
+#bandtag {
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#bandtag a {
+    text-decoration: none;
+    color: black;
+}
+
+#bandtag a:hover {
+    color: magenta;
+}
+
+#image {
+    border: solid black;
+    visibility: hidden;
+    height: auto;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.event-container {
+    margin-top: 10px;
+}
+
+.event-container a {
+    text-decoration: none;
+    color: black;
+    font-family: "Tomorrow", sans-serif;
+}
+
+.event-item {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event-item h1 {
+    font-size: 30px;
+}
+
+.event-item:hover {
+    background-color: rgba(218, 38, 188, 0.253);
+}
+
+.photo {
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    padding-right: 50px;
+}
+
+.up-event {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.up-event a {
+    text-decoration: none;
+    color: black;
+    font-family: "Tomorrow", sans-serif;
+}
+
+.up-event h1 {
+    padding-top: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.up-event-item {
+    padding-top: 5px;
+}
+
+.up-event-item:hover {
+    background-color: rgba(218, 38, 188, 0.253);
+}
